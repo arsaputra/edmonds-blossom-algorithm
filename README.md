@@ -1,2 +1,3 @@
-# edmonds-blossom-algorithm
-A python implementation of Edmond's Blossom Algorithm for finding maximum matching
+# Edmonds' Blossom Algorithm
+## About
+This is a python implementation of Edmonds' Blossom Algoirhtm to find a maximal-cardinality matching in a given graph. This was a programming exercise on the module 'Discrete Optimization (ADM II)' held by Prof. Dr. Martin Skutella at TU Berlin in summer semester 2020. I did this project together with a partner. We did this project using the pair programming paradigm, where i mainly think about the implementation and the debugging while my partner mostly think about the mathematical interpretation. Even though the running time is not guaranteed to be optimal, the code's correctness has been approved by the teaching assistant.
