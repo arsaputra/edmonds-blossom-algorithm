@@ -248,8 +248,6 @@ def max_path(v):
             else:
                 break
             
-    #changes here
-            
     r=P[-1]
     if r.miu==r:
         return P
@@ -259,7 +257,6 @@ def max_path(v):
         P.append(z.phi)
         return P
     
-     #changes here
 
 
 def is_dist_x_odd(v,P):
@@ -408,7 +405,6 @@ def progress(x,V):
         if y.is_out_of_forest()==True:
             #Step 4
             y.phi=x
-            #laufzeit verbessern moglich - 'rausnimmt'
             eligible=update_neighbours(x,V)
             continue
         
